@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #8de88d;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  opacity: 0; /* Começa invisível */
+  animation: fadeIn 4.0s forwards; /* Aplica a animação fadeIn por 1.5 segundos */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Termina visível */
+  }
+}
+
+.fade-in {
+  opacity: 0; /* Começa invisível */
+  animation: fadeInAnimation 4.0s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0; /* Invisível no início */
+  }
+  100% {
+    opacity: 1; /* Totalmente visível no final */
+  }
+}
+h1 {
+  -webkit-text-stroke-color: #070907;
+  font-size: 25px;
+}
+form {
+  font-color: red;
+  font-style: italic;
+  font-size: 15px;
+  text-align:center
+}
+img {
+  width: 100px;
+}
